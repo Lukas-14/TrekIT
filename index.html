@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TrekIT — ITU Hiking Club</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="logo.png" />
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <img src="logo.png" alt="TrekIT logo" />
+        <span>TrekIT • ITU Hiking Club</span>
+      </a>
+      <nav class="navlinks">
+        <a class="active" href="index.html">Home</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="board.html">Board</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-card">
+          <div class="kicker">Explore • Connect • Move</div>
+          <h1>Hiking adventures for ITU students</h1>
+          <p>
+            TrekIT is the hiking club at the IT University of Copenhagen. We love
+            local trails, social walks, and the occasional weekend trek.
+          </p>
+          <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:6px">
+            <a class="btn primary" href="schedule.html">See schedule</a>
+            <a class="btn" href="board.html">Meet the board</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container grid-3">
+        <div class="card">
+          <h3 class="title">What we do</h3>
+          <p>Weekly city walks, monthly forest hikes, and student-friendly gear tips.</p>
+        </div>
+        <div class="card">
+          <h3 class="title">All levels welcome</h3>
+          <p>Whether you’re brand new or a seasoned trekker, there’s a pace for you.</p>
+        </div>
+        <div class="card">
+          <h3 class="title">Community vibes</h3>
+          <p>We’re here to unplug, make friends, and enjoy Denmark’s trails.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="title" style="margin:0 0 12px">Gallery placeholders</h2>
+        <div class="grid-3">
+          <div class="ph">Add photo 1 (1200×800)</div>
+          <div class="ph">Add photo 2</div>
+          <div class="ph">Add photo 3</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      © <span id="year"></span> TrekIT — IT University of Copenhagen •
+      <a href="mailto:trekit@itu.dk">trekit@itu.dk</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>

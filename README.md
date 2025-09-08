@@ -1,1 +1,1 @@
-# TrekIT
+# TreckIT
