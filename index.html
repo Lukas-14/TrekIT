@@ -2,88 +2,273 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>TrekIT — ITU Hiking Club</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" href="logo.png" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TrekIT — ITU Hiking Club</title>
+    <link rel="stylesheet" href="styles.css?v=1" />
+    <link rel="icon" href="images/assets/logo.png" />
 </head>
 
 <body>
-  <header class="topbar">
-    <div class="container nav">
-      <a class="brand" href="index.html">
-        <img src="logo.png" alt="TrekIT logo" />
-        <span>TrekIT • ITU Hiking Club</span>
-      </a>
-      <nav class="navlinks">
-        <a class="active" href="index.html">Home</a>
-        <a href="schedule.html">Schedule</a>
-        <a href="board.html">Board</a>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <section class="hero">
-      <div class="container">
-        <div class="hero-card">
-          <div class="kicker">Explore • Connect • Move</div>
-          <h1>Hiking adventures for ITU students</h1>
-          <p>
-            TrekIT is the hiking club at the IT University of Copenhagen. We love
-            local trails, social walks, and the occasional weekend trek.<br><br>
-            Join our <a href="https://discord.gg/TyPREfcJHW">discord</a>
-
-          </p>
-          <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:6px">
-            <a class="btn primary" href="schedule.html">See schedule</a>
-            <a class="btn" href="board.html">Meet the board</a>
-          </div>
+    <header class="topbar">
+        <div class="container nav">
+            <a class="brand" href="index.html">
+                <img src="images/assets/logo.png" alt="TrekIT logo" />
+                <span>TrekIT • ITU Hiking Club</span>
+            </a>
+            <nav class="navlinks">
+                <a class="active" href="index.html">Home</a>
+                <a href="board.html">Board</a>
+            </nav>
         </div>
-      </div>
-    </section>
+    </header>
 
-    <section class="section">
-      <div class="container grid-3">
-        <div class="card">
-          <h3 class="title">What we do</h3>
-          <p>monthly forest hikes, and student-friendly gear tips.</p>
-        </div>
-        <div class="card">
-          <h3 class="title">All levels welcome</h3>
-          <p>Whether you’re brand new or a seasoned trekker, there’s a pace for you.</p>
-        </div>
-        <div class="card">
-          <h3 class="title">Community vibes</h3>
-          <p>We’re here to unplug, make friends, and enjoy Scandinavian trails.</p>
-        </div>
-      </div>
-    </section>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-card">
+                    <div class="kicker">Explore • Connect • Move</div>
+                    <h1>Hiking adventures for ITU students</h1>
+                    <p>
+                        TrekIT is the hiking club at the IT University of Copenhagen. We love
+                        local trails, social walks, and the occasional weekend trek.
+                    </p>
+                    <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:6px">
+                        <a class="btn primary" href="https://discord.gg/TyPREfcJHW">Join Discord</a>
+                        <a class="btn" href="board.html">Meet the board</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <!-- Unified gallery -->
-    <section class="section gallery">
-      <div class="container">
-        <h2 class="title" style="margin:0 0 12px">Gallery</h2>
-        <div class="grid-3">
-          <figure class="card"><img src="images/img1.jpg" alt="Forest hike" /></figure>
-          <figure class="card"><img src="images/img2.jpg" alt="Hill views" /></figure>
-          <figure class="card"><img src="images/img3.jpg" alt="Trail walk" /></figure>
+        <div class="content-background">
+            <section class="section">
+                <div class="container grid-3">
+                    <div class="card">
+                        <h3 class="title">What we do</h3>
+                        <p>monthly forest hikes, and student-friendly gear tips.</p>
+                    </div>
+                    <div class="card">
+                        <h3 class="title">All levels welcome</h3>
+                        <p>Whether you’re brand new or a seasoned trekker, there’s a pace for you.</p>
+                    </div>
+                    <div class="card">
+                        <h3 class="title">Community vibes</h3>
+                        <p>We’re here to unplug, make friends, and enjoy Scandinavian trails.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Events Section -->
+            <section class="section events">
+                <div class="container">
+                    <h2 class="title" style="margin:0 0 24px">Adventures & Events</h2>
+                    <p class="meta" style="margin:8px 0 18px">
+                        Locations and times are subject to weather. Check our IG/Discord the day before.
+                    </p>
+
+                    <div class="event-list">
+                        <!-- Upcoming Event -->
+                        <div class="event-card">
+                            <div class="event-date">
+                                <span>14</span> Mar
+                                <small>2026</small>
+                            </div>
+                            <div class="event-content">
+                                <h3 class="event-title">Jægersborg Dyrehave Hike</h3>
+                                <div class="event-meta">
+                                    <div class="event-meta-item">📍 Klampenborg St</div>
+                                    <div class="event-meta-item">⏱️ 11:00 AM</div>
+                                    <div class="event-meta-item">🥾 13 km</div>
+                                </div>
+                                <p class="event-description">
+                                    Join us for our first event of the semester! We'll be walking around the beautiful
+                                    Jægersborg Dyrehave. The trail is around 13 km, and we plan to finish off with some
+                                    hot cocoa by the end ☕.
+                                    <br><br>
+                                    <strong>What to bring:</strong> Warm clothes 🧣 and water.
+                                    <br>
+                                    <a href="https://linktr.ee/trek.it"
+                                        style="color:var(--orange); text-decoration:none; font-weight:700">Sign up here
+                                        →</a>
+                                </p>
+                                <div class="section gallery full-width">
+                                    <div class="gallery-grid">
+                                        <figure class="gallery-item"><img src="images/jaegersborg/invite.jpg"
+                                                alt="Invite" /></figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Recent Event 1 -->
+                        <div class="event-card">
+                            <div class="event-date">
+                                <span>02</span> Dec
+                                <small>2025</small>
+                            </div>
+                            <div class="event-content">
+                                <h3 class="event-title">Tour-de-Julemarked</h3>
+                                <div class="event-meta">
+                                    <div class="event-meta-item">📍 Outside ITU</div>
+                                    <div class="event-meta-item">⏱️ 16:30</div>
+                                </div>
+                                <p class="event-description">
+                                    A cozy evening walking through Copenhagen's Christmas markets 🎄. Starting from ITU,
+                                    heading towards Islands Brygge, and finishing with a celebratory dinner 💚.
+                                </p>
+                                <div class="section gallery full-width" style="margin-top:20px">
+                                    <div class="gallery-grid">
+                                        <figure class="gallery-item"><img src="images/julemarked/invite.jpg"
+                                                alt="Christmas Market Invite" /></figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Recent Event 2 -->
+                        <div class="event-card">
+                            <div class="event-date">
+                                <span>08</span> Nov
+                                <small>2025</small>
+                            </div>
+                            <div class="event-content">
+                                <h3 class="event-title">Skjoldungestien Trek</h3>
+                                <div class="event-meta">
+                                    <div class="event-meta-item">📍 CPH Central Station</div>
+                                    <div class="event-meta-item">⏱️ 07:15</div>
+                                    <div class="event-meta-item">🥾 30 km</div>
+                                </div>
+                                <p class="event-description">
+                                    A long 30km route from Hvalsø to Roskilde St. A true test of endurance on a famous
+                                    path.
+                                    <br>
+                                    <strong>Provided:</strong> Food & transport for sign-ups.
+                                </p>
+                                <div class="section gallery full-width" style="margin-top:20px">
+                                    <div class="gallery-grid">
+                                        <figure class="gallery-item"><img src="images/skjoldungestien/invite.jpg"
+                                                alt="Invite" /></figure>
+                                        <figure class="gallery-item"><img src="images/skjoldungestien/autum_leaves.jpg"
+                                                alt="Autum leaves" /></figure>
+                                        <figure class="gallery-item"><img src="images/skjoldungestien/cookies.jpg"
+                                                alt="Cookies" /></figure>
+                                        <figure class="gallery-item"><img src="images/skjoldungestien/furry_cow.jpg"
+                                                alt="Furry cow" /></figure>
+                                        <figure class="gallery-item"><img
+                                                src="images/skjoldungestien/group_and_sara_peice.jpg"
+                                                alt="Group and sara peice" /></figure>
+                                        <figure class="gallery-item"><img
+                                                src="images/skjoldungestien/group_mirror_selfie.jpg"
+                                                alt="Group mirror selfie" /></figure>
+                                        <figure class="gallery-item"><img
+                                                src="images/skjoldungestien/group_on_trail.jpg" alt="Group on trail" />
+                                        </figure>
+                                        <figure class="gallery-item"><img src="images/skjoldungestien/hill.jpg"
+                                                alt="Hill" /></figure>
+                                        <figure class="gallery-item"><img
+                                                src="images/skjoldungestien/horse_and_sara.jpg" alt="Horse and sara" />
+                                        </figure>
+                                        <figure class="gallery-item"><img src="images/skjoldungestien/lake_pic.jpg"
+                                                alt="Lake pic" /></figure>
+                                        <figure class="gallery-item"><img
+                                                src="images/skjoldungestien/log_sitting_group_photo.jpg"
+                                                alt="Log sitting group photo" /></figure>
+                                        <figure class="gallery-item"><img
+                                                src="images/skjoldungestien/log_sitting_group_photo_2.jpg"
+                                                alt="Log sitting group photo 2" /></figure>
+                                        <figure class="gallery-item"><img src="images/skjoldungestien/lukas_back.jpg"
+                                                alt="Lukas back" /></figure>
+                                        <figure class="gallery-item"><img src="images/skjoldungestien/mushroom.jpg"
+                                                alt="Mushroom" /></figure>
+                                        <figure class="gallery-item"><img src="images/skjoldungestien/river.jpg"
+                                                alt="River" /></figure>
+                                        <figure class="gallery-item"><img src="images/skjoldungestien/tree_hug.jpg"
+                                                alt="Tree hug" /></figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Recent Event 3 -->
+                        <div class="event-card">
+                            <div class="event-date">
+                                <span>20</span> Oct
+                                <small>2025</small>
+                            </div>
+                            <div class="event-content">
+                                <h3 class="event-title">Bonfire Night</h3>
+                                <div class="event-meta">
+                                    <div class="event-meta-item">📍 ITU -> Amager Fælled</div>
+                                    <div class="event-meta-item">⏱️ 16:30</div>
+                                </div>
+                                <p class="event-description">
+                                    A relaxed evening with a walk to Amager Fælled to make "snobrød" 🌭 and roasted
+                                    marshmallows 🔥🪵.
+                                </p>
+                                <div class="section gallery full-width" style="margin-top:20px">
+                                    <div class="gallery-grid">
+                                        <figure class="gallery-item"><img src="images/bonfire/invite.jpg"
+                                                alt="Invite" /></figure>
+                                        <figure class="gallery-item"><img src="images/bonfire/bonfire_group.jpg"
+                                                alt="Bonfire group" /></figure>
+                                        <figure class="gallery-item"><img src="images/bonfire/bonfire_night.jpg"
+                                                alt="Bonfire night" /></figure>
+                                        <figure class="gallery-item"><img src="images/bonfire/hugo_smore.jpg"
+                                                alt="Hugo smore" /></figure>
+                                        <figure class="gallery-item"><img src="images/bonfire/marshmallow.jpg"
+                                                alt="Marshmallow" /></figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Recent Event 4 -->
+                        <div class="event-card">
+                            <div class="event-date">
+                                <span>05</span> Oct
+                                <small>2025</small>
+                            </div>
+                            <div class="event-content">
+                                <h3 class="event-title">Furesøen Hike</h3>
+                                <div class="event-meta">
+                                    <div class="event-meta-item">📍 Farum St.</div>
+                                    <div class="event-meta-item">⏱️ 09:30</div>
+                                </div>
+                                <p class="event-description">
+                                    Despite the rain forecast, we're hiking! Waterproof clothes and comfortable shoes
+                                    are a must 🌧️🥾. Snacks provided!
+                                </p>
+                                <div class="section gallery full-width" style="margin-top:20px">
+                                    <div class="gallery-grid">
+                                        <figure class="gallery-item"><img src="images/furesoe/invite.png"
+                                                alt="invite" />
+                                        </figure>
+                                        <figure class="gallery-item"><img src="images/furesoe/jan_and_lake.jpg"
+                                                alt="Jan and lake" /></figure>
+                                        <figure class="gallery-item"><img src="images/furesoe/lake.jpg" alt="Lake" />
+                                        </figure>
+                                        <figure class="gallery-item"><img src="images/furesoe/lake_and_fern.jpg"
+                                                alt="Lake and fern" /></figure>
+                                        <figure class="gallery-item"><img src="images/furesoe/lake_and_lillipad.jpg"
+                                                alt="Lake and lillipad" /></figure>
+                                    </div>
+                                </div>
+                            </div>
+            </section>
         </div>
-      </div>
-    </section>
-  </main>
+    </main>
 
-  <footer>
-    <div class="container">
-      © <span id="year"></span> TrekIT — IT University of Copenhagen •
-      <a href="mailto:lush@itu.dk">lush@itu.dk</a>
-    </div>
-  </footer>
+    <footer>
+        <div class=" container">
+            © <span id="year"></span> TrekIT — IT University of Copenhagen •
+            <a href="mailto:lush@itu.dk">lush@itu.dk</a>
+        </div>
+    </footer>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
 </body>
 
 </html>
